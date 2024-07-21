@@ -1,0 +1,121 @@
+.search-div {
+    width: 100vw;
+    display: flex;
+}
+
+.search-div .searchbar {
+    width: 85%;
+    background-color: lightblue;
+    height: 20vh;
+}
+
+.icon-btn {
+    margin-left: -50px;
+    height: 51px;
+    width: 50px;
+    cursor: pointer;
+    font-size: 12px;
+    border: none;
+}
+
+.search-div .searchbar .bar {
+    text-align: center;
+    display: inline;
+    height: 50px;
+    width: 600px;
+    margin-left: 28vw;
+    margin-top: 7vh;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    outline: none;
+}
+
+.search-div .searchbar .bar:hover {
+    border: none;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.row {
+    margin-left: -80vw;
+    margin-top: 28vh;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-left: 26vw;
+    width: 305px;
+    height: 500px;
+    margin-top: 20px
+}
+
+.card h4 {
+    text-align: center;
+    line-height: 25px;
+}
+
+.card .qrImg {
+    margin-top: 11px;
+}
+
+.search-results h2 {
+    margin-left: 30vw;
+    margin-top: -6vh;
+
+}
+
+.error {
+    color: green;
+    margin-left: -45vw;
+    margin-top: 22vh;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .search-div {
+        width: 118vw;
+    }
+
+    .sidenav {
+        display: none;
+    }
+
+    .searchbar {
+        width: 100%;
+    }
+
+    .search-div .searchbar .bar {
+        margin-left: 3vw;
+        width: 93vw;
+        margin-top: 29px;
+    }
+
+    .card{
+        margin-left: -30px;
+    }
+
+    .search-results h2{
+        margin-left: 9vw;
+    }
+
+    .topnav .con{
+        margin-right: 70px;
+    }
+
+    .error{
+        margin-left: -65vw;
+    }
+}

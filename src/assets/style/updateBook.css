@@ -1,0 +1,57 @@
+.updatebook-div {
+    width: 100vw;
+    display: flex;
+}
+
+.updatebook-div .left-div {
+    width: 40%;
+}
+
+.updatebook-div .right-div img {
+    height: 750px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.left-div h1,
+.left-div h2 {
+    font-size: 35px;
+    margin-left: 88px;
+    color: #4d4db9;
+}
+
+.left-div h1 {
+    margin-top: 6vh;
+}
+
+.addBook-form {
+    margin-left: 5vw;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+    .updatebook-div {
+        width: 480px;
+        height: 200vh;
+    }
+
+    .left-div h1,
+    .left-div h2 {
+        margin-left: 11px;
+        margin-top: 10px;
+        width: 420px;
+        font-size: 26px;
+    }
+
+    .updatebook-div .right-div img {
+        display: none;
+    }
+
+    .topnav .con {
+        margin-right: 50px;
+    }
+
+    .addBook-form {
+        width: 95vw;
+        margin-left: 10px;
+    }
+}

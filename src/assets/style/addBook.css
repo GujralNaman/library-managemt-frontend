@@ -1,0 +1,91 @@
+.addBook-div {
+	width: 100vw;
+	display: flex;
+}
+
+.left-div-add img {
+	height: 750px;
+	margin-left: 2vw;
+	margin-top: 5vh;
+}
+
+
+.right-div {
+	width: 40%;
+}
+
+.right-div h1,
+.right-div h2 {
+	font-size: 40px;
+	margin-left: 80px;
+	color: #4d4db9;
+}
+
+.right-div h1 {
+	margin-top: 6vh;
+}
+
+
+.addBook-form {
+	margin-top: 5.2vh;
+	margin-left: 8vw;
+}
+
+
+.label-title {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: left;
+	color: #555;
+	font-weight: bold;
+}
+
+
+#input-title,
+#input-req,
+#input-authors,
+#input-publisher,
+#input-isbn,
+#input-version,
+#input-totalCopies,
+#input-availableCopies {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.addbook-error{
+	margin-top: 0px;
+	margin-left: 17vw;
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+	.addBook-div {
+		width: 480px;
+		height: 200vh;
+	}
+
+	.left-div-add img {
+		display: none;
+	}
+
+	.addBook-div .right-div {
+		width: 96vw;
+	}
+
+	.addBook-div .right-div h1,
+	.addBook-div .right-div h2 {
+		margin-left: 15px;
+		margin-top: 10px;
+	}
+
+	.topnav .con{
+		margin-right: 50px;
+	}
+}

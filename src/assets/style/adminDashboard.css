@@ -1,0 +1,97 @@
+.admin-div {
+    width: 100vw;
+    display: flex;
+}
+
+
+.left-div-admin {
+    width: 40%;
+}
+
+.left-div-admin img {
+    height: 750px;
+    margin-left: 2vw;
+    margin-top: 0px;
+}
+
+.right-div-admin{
+    width: 40%;
+}
+
+.right-div-admin .error{
+    color: red;
+    text-align: center;
+    margin-left: 105px;
+}
+
+.right-div-admin h1{
+    font-size: 40px;
+    margin-top:11vh;
+}
+
+.right-div-admin h2{
+    font-size: 40px;
+}
+
+.right-div-admin h1,
+.right-div-admin h2{
+    margin-left: 140px;
+}
+
+.onboard-reader-form {
+	margin-top: 4vh;
+	margin-left: 8vw;
+}
+
+
+.label-email-admin,
+.label-password-admin,
+.label-phone-admin,
+.label-library-admin,
+.label-name-admin {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: left;
+	color: #555;
+	font-weight: bold;
+}
+
+
+#input-email-admin,
+#input-password-admin,
+#input-name-admin,
+#input-library-admin,
+#input-phone-admin {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.submit-btn-admin {
+	padding: 15px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background-color: #4d4db9;
+	width: 100%;
+	font-size: 16px;
+}
+
+.submit-btn-admin:hover {
+	background-color: #4CAF50;
+}
+
+.wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

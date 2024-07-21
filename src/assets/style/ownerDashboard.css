@@ -1,0 +1,109 @@
+.owner-div {
+	width: 100vw;
+	display: flex;
+}
+
+.owner-div .left-div {
+	width: 50%;
+}
+
+.owner-div .left-div h1 {
+	margin-top: 5vw;
+	font-size: 63px;
+	margin-left: 10vw;
+	color: #5c5555;
+}
+
+.owner-div .left-div h2 {
+	font-size: 39px;
+	margin-left: 8vw;
+	color: #5c5555;
+}
+
+.owner-div .right-div {
+	width: 100%;
+}
+
+.owner-div .right-div img {
+	height: 800px;
+	width: 900px;
+	margin-top: 3vh;
+	margin-left: 15vw;
+}
+
+.owner-div .right-div .logout {
+	background-color: blue;
+	float: right;
+	height: 51px;
+	width: 100px;
+	color: #fff;
+	border: navajowhite;
+	border-radius: 3px;
+	font-size: 20px;
+	text-align: center;
+	padding: 0px;
+	cursor: pointer;
+	margin-top: -51px;
+}
+
+.owner-div .right-div .logout:hover{
+	background-color: #5c5555;
+}
+
+.onboard-admin-form {
+	margin-top: 5vh;
+	margin-left: 8vw;
+}
+
+
+.label-email,
+.label-password,
+.label-phone,
+.label-library,
+.label-name {
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	text-align: left;
+	color: #555;
+	font-weight: bold;
+}
+
+
+#input-email,
+#input-password,
+#input-name,
+#input-library,
+#input-phone {
+	display: block;
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.submit-btn {
+	padding: 15px;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border: none;
+	color: white;
+	cursor: pointer;
+	background-color: #4d4db9;
+	width: 100%;
+	font-size: 16px;
+}
+
+.submit-btn:hover {
+	background-color: #4CAF50;
+}
+
+.wrap {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
