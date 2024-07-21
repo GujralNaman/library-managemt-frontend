@@ -1,70 +1,73 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Library Management System
 
-## Available Scripts
+I have developed a comprehensive Library Management System using React.js for the frontend and Golang for the backend. The system incorporates robust authentication and authorization mechanisms, supporting three distinct user roles: User, Admin, and Owner.
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Admin Features
+- Onboard Readers: Admins can onboard new readers and manage their profiles.
+- Book Management: Admins can:
+- Add new books to the library collection.
+- Delete books from the library.
+- Update book details, including title, author, and availability.
+- Approve or Disapprove book requests made by readers.
+- CRUD Operations: Admins have full Create, Read, Update, and Delete capabilities for book records.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Reader Features
+- Book Search: Readers can search for books within the library.
+- QR Code Generation: Readers can generate a QR code for a selected book, which includes detailed information about the book.
+- Book Requests: Readers can submit requests to issue or return books.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Technical Implementation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Authentication & Authorization:** Implemented secure user authentication with password hashing (64-bit encryption) and JSON Web Tokens (JWT) for session management. Tokens are stored in the browser’s local storage and expire after 24 hours.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Form Validation:** All forms are equipped with thorough validation mechanisms to ensure data integrity.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Responsive Design:** The frontend features fully responsive React components, ensuring a seamless user experience across various devices.
 
-### `npm run eject`
+**Notifications:** Integrated the React Toastify library for effective and user-friendly notifications.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Install my-project with npm
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Run locally on localhost:3000 (frontend)
 
-## Learn More
+On the same time, clone backend repo and run it on localhost:8000 (backend server)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Frontend setup :
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```bash
+   git clone https://github.com/GujralNaman/library-management-frontend.git
 
-### Code Splitting
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+  npm install my-project
+  cd my-project
+```
 
-### Analyzing the Bundle Size
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Backend setup :
 
-### Making a Progressive Web App
+```bash
+git clone https://github.com/GujralNaman/library-management-backend.git
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+cd your_project_name
+```
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+go run main.go
+```
+    
